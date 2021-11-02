@@ -1,0 +1,31 @@
+2564-10-21 10:29:29.754  INFO 8772 --- [restartedMain] c.myshop.admin.MyshopBackEndApplication  : Starting MyshopBackEndApplication using Java 17 on DESKTOP-9FKCTQQ with PID 8772 (D:\Project-Myshop\MyshopProject\MyshopWebParent\MyshopBackEnd\target\classes started by AP in D:\Project-Myshop\MyshopProject\MyshopWebParent\MyshopBackEnd)
+2564-10-21 10:29:29.757  INFO 8772 --- [restartedMain] c.myshop.admin.MyshopBackEndApplication  : No active profile set, falling back to default profiles: default
+2564-10-21 10:29:29.837  INFO 8772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2564-10-21 10:29:29.837  INFO 8772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2564-10-21 10:29:30.802  INFO 8772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2564-10-21 10:29:30.874  INFO 8772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2564-10-21 10:29:31.600  INFO 8772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2564-10-21 10:29:31.610  INFO 8772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2564-10-21 10:29:31.610  INFO 8772 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2564-10-21 10:29:31.723  INFO 8772 --- [restartedMain] o.a.c.c.C.[.[localhost].[/MyshopAdmin]   : Initializing Spring embedded WebApplicationContext
+2564-10-21 10:29:31.723  INFO 8772 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1883 ms
+2564-10-21 10:29:31.980  INFO 8772 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2564-10-21 10:29:32.049  INFO 8772 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2564-10-21 10:29:32.219  INFO 8772 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2564-10-21 10:29:32.352  INFO 8772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2564-10-21 10:29:32.749  INFO 8772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2564-10-21 10:29:32.767  INFO 8772 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2564-10-21 10:29:33.907  INFO 8772 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2564-10-21 10:29:33.916  INFO 8772 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2564-10-21 10:29:33.992  WARN 8772 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2564-10-21 10:29:34.670  INFO 8772 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2564-10-21 10:29:34.670  INFO 8772 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2564-10-21 10:29:34.671  INFO 8772 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2564-10-21 10:29:34.714  INFO 8772 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26a97b99, org.springframework.security.web.context.SecurityContextPersistenceFilter@6bf1b91, org.springframework.security.web.header.HeaderWriterFilter@48e9fb15, org.springframework.security.web.csrf.CsrfFilter@77f89f5e, org.springframework.security.web.authentication.logout.LogoutFilter@73079201, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4b285284, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@307d1bdc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7da97fec, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@585130d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d9ead4d, org.springframework.security.web.session.SessionManagementFilter@155099cd, org.springframework.security.web.access.ExceptionTranslationFilter@25f420d0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@687bd184]
+2564-10-21 10:29:34.940  INFO 8772 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2564-10-21 10:29:35.630  INFO 8772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2564-10-21 10:29:35.677  INFO 8772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/MyshopAdmin'
+2564-10-21 10:29:35.689  INFO 8772 --- [restartedMain] c.myshop.admin.MyshopBackEndApplication  : Started MyshopBackEndApplication in 6.418 seconds (JVM running for 7.527)
+2564-10-21 10:37:14.983  INFO 8772 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2564-10-21 10:37:14.990  INFO 8772 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2564-10-21 10:37:15.022  INFO 8772 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
